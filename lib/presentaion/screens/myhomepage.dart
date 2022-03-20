@@ -56,7 +56,7 @@ class MyHomePage extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () => _goToNotePage(context),
-        tooltip: 'Add',
+        tooltip: 'Add note',
         child: const Icon(Icons.add),
       ),
     );
